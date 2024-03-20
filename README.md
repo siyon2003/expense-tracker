@@ -32,7 +32,7 @@ Today's Overview: Upon login, users are greeted with a personalized panel displa
 - SYED IZHAAN S
 
 # Screenshots
-## Home Page
+## Landing Page
 ![image](https://github.com/siyon2003/expense-tracker/assets/76099725/cb8e9a76-e250-4546-838c-cd6e76e36a48)
 ## SignIn Page
 ![image](https://github.com/siyon2003/expense-tracker/assets/76099725/e0608a5b-d7e0-4fea-8811-3ee6f0d00b46)
