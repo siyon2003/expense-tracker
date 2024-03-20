@@ -1,4 +1,4 @@
-                                                                              # EXPENSE TRACKER
+# EXPENSE TRACKER
 Expense Tracker is a web-based application designed to simplify and enhance the process of managing personal and business expenses. This project provides a seamless solution for users to meticulously monitor their expenditures, categorize transactions, visualize spending patterns, and generate insightful reports. Whether you're a student on a tight budget, a family saving for a dream vacation, or a business owner tracking operational costs, Expense Tracker offers a user-friendly platform tailored to diverse needs.
 
 
