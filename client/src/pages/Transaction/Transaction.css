@@ -1,0 +1,118 @@
+
+.left-panel {
+  padding: 20px;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+.data-container {
+  height: calc(100vh - 260px);
+  overflow-y: scroll;
+  /* height: 100vh; */
+  padding-right: 10px;
+  background-color: rgb(248 250 251);
+}
+.selectComponents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-panel::-webkit-scrollbar {
+  display: none;
+}
+.data-container::-webkit-scrollbar {
+  display: none;
+}
+.incomeLabel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+  
+}
+.gifContainer{
+  width: 100%;
+  height: 100vh;
+}
+.expenseLabel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.monthLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.transaction-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-panel {
+  padding: 20px;
+  height: 100vh;
+  border-radius: 10px;
+}
+.IncomeExpenseCard{
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  width: 150px;
+}
+.chart1 {
+  height: 80vh !important;
+}
+
+.fetch-button { 
+  background-color: #3f51b5;
+  color: white;
+  margin-top: 10px;
+  &:hover {
+    background-color: #2c387e;
+  }
+}
+
+.data-container {
+  margin-top: 20px;
+}
+
+.data-paper {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.income {
+  color: green;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.expense {
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.data-paper {
+  transition: all 0.3s ease;
+}
+.data-paper:hover {
+  box-shadow: 0 5px 5px rgb(157, 156, 156);
+  cursor: pointer;
+}
+
+ul {
+  display: block;
+}

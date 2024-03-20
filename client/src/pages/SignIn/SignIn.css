@@ -1,0 +1,43 @@
+.sign-in-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin-right: 70px;
+    z-index: 5;
+}
+
+.sign-in-form{
+    display: flex;
+    max-width: 25rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.login-button{
+    margin: 20px 0;
+}
+.sign-up-link{
+    display: flex;
+    align-items: center;
+    font-family: "Lato";
+    width: 100%;
+    gap: 7px;
+    margin-top: 10px;
+}
+.signupbutton{
+    text-decoration: none;
+    color: blue;
+}
+@keyframes fadeInUp {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

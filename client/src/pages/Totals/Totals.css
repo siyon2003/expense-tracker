@@ -1,0 +1,31 @@
+.box{
+    text-align: center;
+    line-height: 10px;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    flex:1;
+    justify-content: space-between;
+    margin-right: 2px;
+    margin-bottom: 6px;
+    box-shadow: 0px 5px 10px rgb(179, 179, 179);
+    font-weight: bold;
+}
+.income-total{
+    border: 1px solid;
+    border-color: green;
+    border-radius: 10px 0px 0px 0px;
+    background-color:rgba(46, 125, 50, 0.08);
+    color: green;
+   
+}
+.expense-total{
+    border: 1px solid;
+    border-color: red;
+    border-radius: 0px 10px 0px 0px;
+    background-color: rgba(211, 47, 47, 0.08);
+    color: red;
+}
+.income-expense-totals{
+    display: flex;
+}

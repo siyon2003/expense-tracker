@@ -1,0 +1,71 @@
+h3 span:first-child {
+  color: rgb(136, 138, 138);
+}
+h3 span:last-child {
+  color: #686565;
+}
+
+.logo {
+  font-size: 1.55rem;
+}
+header {
+  background-color: #eee;
+  box-shadow: 3px 2px 5px rgb(136, 138, 138);
+  
+}
+.header-container {
+  background-color: #eee;
+  padding: 10px 25px;
+  margin: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.HomePageLink {
+  text-decoration: none;
+  color: #424141;
+}
+.SearchComponent {
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 1px solid #686565;
+  border-radius: 8px;
+  color: #686565;
+  display: flex;
+  align-items: center;
+  width: 25%;
+  margin-left: 3.85rem;
+  transition: 0.6s;
+  background-color: #eae7e7;
+}
+
+.searchInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.SearchComponent:hover {
+  width: 35%;
+  background-color: #e6e3e3;
+  transition: 0.6s;
+}
+.SearchComponent:hover {
+  outline: 1px solid;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+}
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#profileAvatar{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}

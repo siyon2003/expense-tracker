@@ -1,0 +1,78 @@
+.dashboard-container{
+    font-family: "Lato";
+   height: 75vh;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 0px;
+}
+ 
+.banner-stack-container{
+    width: 50%;
+    max-height: calc(100vh - 1000px);
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 4px;
+    box-shadow: 0 0 10px rgb(119, 119, 119);
+    text-shadow:0px 0px 5px white ;
+}
+
+.addButton{
+    
+    height:50px;
+    width: 50px;
+    /* height: 50px;
+    width: 80px; */
+    font-family: "Lato";
+    /* font-size: 22px; */
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 30px;
+    border: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    /* box-shadow: 0 0 10px white; */
+}
+.addButton:hover{
+    box-shadow: 0 0 10px white;
+    text-shadow:0px 0px 1px black ;
+    cursor: pointer;
+}
+
+.stack-container{
+    max-height: calc(100vh - 190px);
+    overflow-y: scroll;
+    height: 100vh;
+    /* border-bottom: 10px solid black; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+ }
+ .stack-container::-webkit-scrollbar{
+     display: none;
+ }
+
+ 
+ .no-transaction{
+    max-height: calc(100vh - 190px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,40 @@
+
+.landing-container{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    background-color: transparent;
+    z-index: 2;
+    animation: fadeInUp 1.2s ease-out forwards;
+}
+
+.landing-title{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.landing-description{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.landing-button{
+    margin-top: 20px;
+}
+
+
+
+@keyframes fadeInUp {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
